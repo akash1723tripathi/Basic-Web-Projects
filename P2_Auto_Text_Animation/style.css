@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+
+body{
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;  
+      align-items: center;
+      background-color: crimson;
+      font-family: "Bitcount Single", system-ui;
+}
+
+
+
