@@ -1,0 +1,56 @@
+body{
+      margin: 0;
+      padding: 0;
+      background-color: coral;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      font-family: cursive, sans-serif;
+}
+
+.container{
+      width: 350px;
+      height: 200px;
+      background-color: lightpink;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.container h2{
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+}
+
+.container .text-area{
+      width: 300px;
+      height: 40px;
+      border: none;
+      padding: 10px;
+      margin-left: 15px;
+      margin-top: 15px;
+      font-size: 16px;
+      border: 1px solid grey;
+}     
+
+.container .CounterContainer{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 15px;
+}
+
+.container .CounterContainer p{
+      margin: 0;
+      font-size: 14px;
+      color: black;  
+}
+
+.total-counter{
+      color: slateblue;
+}
+
+.Remaining{
+      color: red;
+}
